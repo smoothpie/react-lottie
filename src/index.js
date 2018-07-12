@@ -15,6 +15,7 @@ export default class Lottie extends React.Component {
       animationData,
       rendererSettings,
       segments,
+      assetsPath,
     } = options;
 
     this.options = {
@@ -25,6 +26,7 @@ export default class Lottie extends React.Component {
       segments: segments !== false,
       animationData,
       rendererSettings,
+      assetsPath,
     };
 
     this.options = { ...this.options, ...options };
